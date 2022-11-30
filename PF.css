@@ -1,0 +1,216 @@
+h1
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0 0 8px rgba(248, 48, 231, 0.8); 
+  
+}
+
+
+.color /*Logo de la empresa*/
+{
+width: 100px; /*Tamaño de imagen*/
+height:auto; /*Tamaño de imagen*/
+border-radius:1000%;/*Efecto circular*/
+}
+
+
+body/*Cuerpo*/
+{
+  color: #FFFFFF; /*Color de letra*/
+  background-color: #000000; /*Color de fondo*/
+}
+
+
+.menu /*Pestañas de la pagina*/
+{
+ width:100%;
+ list-style:none; 
+ margin:0; 
+ padding:0;
+}
+
+.menu li /*Pestañas de la pagina*/
+{
+ display:inline-block; /*Forma horizontal*/
+}
+
+.menu li a /*Pestañas de la pagina*/
+{
+ padding:3px 20px; /*Espacio entre palabras*/
+ display:inline-block;  /*Elementos en linea*/
+ color:#ffffff; /*Color de letra*/
+}
+
+
+.menu li a:hover /*Pestañas de la pagina*/
+{
+  color:#A9A4A3  ;/*Cambio de color al pasar el cursor*/
+}
+
+.texto img /*Imagen de la clase texto*/
+{
+  width: 100%;/*Tamaño*/
+  height: 60%;/*Tamaño*/
+}
+
+
+.texto h2
+{
+  font-size: 3rem; /*Dimension del texto*/
+  position: absolute; /*Posicionamiento en la imagen */
+  top: 30%;/*Posicionamiento en la imagen */
+  font-size: 35px; /*Altura del texto en la imagen*/
+  transform: translate(10%,10%);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /*Efecto del texto*/
+  color: #000000; /*Color del texto*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Estilo de letra*/
+  
+}
+
+
+.texto h3
+{
+  font-size: 3rem;/*Dimension del texto*/
+  position: absolute;/*Posicionamiento en la imagen */
+  top: 45%;/*Posicionamiento en la imagen */
+  font-size: 35px;/*Altura del texto en la imagen*/
+  transform: translate(10%,10%);
+  color: #000000;/*Color del texto*/
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /*Efecto del texto*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Estilo de letra*/
+}
+
+
+.texto h4
+{
+  font-size: 3rem;/*Dimension del texto*/
+  position: absolute;/*Posicionamiento en la imagen */
+  top: 65%;/*Posicionamiento en la imagen */
+  font-size: 35px;/*Altura del texto en la imagen*/
+  transform: translate(10%,10%);
+  color: #000000;/*Color del texto*/
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /*Efecto del texto*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Estilo de letra*/
+}
+
+
+
+p2/*Texto despues de la img*/
+{
+  font-size: 25px;/*Tamaño de letra*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*Estilo de letra*/
+}
+
+
+table th:hover /*Logos de las marcas*/
+{
+  background: #ffffff; /*Color del efecto*/
+  color: rgb(255, 255, 255);/*Color del efecto*/
+}
+
+
+
+
+footer/* Pie de la pagina*/
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*Estilo de letra*/
+  color: #ffffff;/*Color del texto*/
+  background-color: #000000;
+  font-size: 16px;/*Tamaño de letra*/
+}
+
+
+
+
+
+
+.autos/*Tabla autos*/
+{
+ border-spacing:100px;/* Espacio entre las columnas*/
+ background-color: #FFFFFF;/*Color de fondo*/
+ color:#000000;/*Color del texto*/
+}
+
+.autos img
+{
+  border-radius: 10px;/*Efecto circular*/
+}
+
+
+table td:hover
+{
+ background: rgb(185, 176, 176);/*Cambio de color al pasar el cursor*/
+}
+
+
+.formulario h3/* Titulo del formulario*/
+{
+  color: rgb(255, 255, 255); /*Color de letra*/
+  font-family:Georgia, 'Times New Roman', Times, serif;/*Estilo de letra*/
+  text-shadow: 0 0 8px rgba(216, 233, 248, 0.8);/*contorno de la letra*/
+}
+
+
+.Qs/*Imagen Qs*/
+{
+  border-radius: 10px;/*Efecto circular*/
+  
+}
+
+
+
+form
+{
+ width:30%;
+ border:2px solid #B200FA ;
+ margin:20px;
+ padding:20px;
+ background: #E4A2FF ;
+ font-size: 16px;
+}
+
+
+input, textarea
+{
+ margin-bottom: 20px;
+  
+  padding:10px; 
+ border:1px solid rgb(0, 0, 0); 
+ color: #000000 ;
+ background: #ffffff ;
+}
+
+label
+{
+ font-size:18px;
+ color:rgb(255, 255, 255);
+}
+
+select
+{
+  color:black;
+}
+
+.forma input
+{
+  background-color: #a7a1fd;
+}
+
+.quienessomos /*controla el tamaño de la imagen principal*/
+{
+  width: 1800px;
+  height: 400px;
+  
+}
+
+body /*configuracion general de la página*/
+{
+background: #000000; /*muestra color negro de fondo*/
+  color: white;/*para que la letra sea color blanco*/
+ text-align: justify; /*justifica todo el texto*/
+}
+h2
+{
+  color: #AAAFFC; /*le da color a los titulos de cada parte del texto*/
+}
+

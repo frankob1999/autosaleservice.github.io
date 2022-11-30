@@ -1,0 +1,74 @@
+
+.color
+{
+width:150px; 
+height:auto;
+border-radius:1000%;
+box-shadow: #FFFFFF;  ; 
+  font-size: 200%; /* Esto es para el logo de la esquina superior izquierda*/
+}
+.menu /*esto es para el diseño del menú de la página*/
+{
+ width:100%;
+ list-style:none; 
+ margin:0; 
+ padding:0;
+
+}
+
+.menu li
+{
+ display:inline-block; 
+
+}
+
+.menu li a
+{
+ padding:3px 20px; 
+ display:inline-block;  
+ color:#FFFFFF;
+}
+
+.menu li a:hover
+{
+
+ color:#CFCFCE ;
+}
+
+.quienessomos /*controla el tamaño de la imagen principal*/
+{
+  width: 1000px;
+  height: 400px;
+  border-radius: 10px;/*Efecto circular*/
+}
+
+body /*configuracion general de la página*/
+{
+background: #000000; /*muestra color negro de fondo*/
+  color: white;/*para que la letra sea color blanco*/
+ text-align: justify; /*justifica todo el texto*/
+}
+h2
+{
+  color: #AAAFFC; /*le da color a los titulos de cada parte del texto*/
+}
+
+.main .todo
+{
+ width:100%; /*del total de area del dispositivo*/
+ margin-right:1%; /*separación entre bloques*/	
+ float:left; /*envia contenido a la izquierda*/
+}
+
+
+ofrecemos
+{
+ width:30%;
+ background:#000000;
+ float:left;
+ padding:20px;
+ box-sizing:border-box;/* acomoda un bloque a la izquierda y dos a la derecha*/
+}
+
+
+
